@@ -26,6 +26,7 @@ app.use(function (req, res, next) {
 
 /////////    Service Provider Imports    /////////
 require('dotenv').config()
+const db = require('./serviceProviders/db')
 
 
 ////////////    API Routes    ////////////
