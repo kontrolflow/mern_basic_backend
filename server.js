@@ -23,6 +23,11 @@ app.use(function (req, res, next) {
   next();
 })
 
+
+/////////    Service Provider Imports    /////////
+require('dotenv').config()
+
+
 ////////////    API Routes    ////////////
 
 ///////  Root Route  ///////
